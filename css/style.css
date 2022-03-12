@@ -1,9 +1,12 @@
 @import url('navbar.css');
+@import url('hero.css');
+@import url('about.css');
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&display=swap');
 
 :root {
     --primaryColor: #131313;
     --white: #fff;
+    --black: #000;
 }
 
 *,
