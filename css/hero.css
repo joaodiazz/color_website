@@ -1,7 +1,7 @@
 .hero {
     background: var(--black);
     background: linear-gradient(to right, #161616, var(--black));
-    padding-top: 100px;
+    padding-top: 140px;
     padding-bottom: 150px;
 }
 

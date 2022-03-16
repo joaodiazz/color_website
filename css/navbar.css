@@ -1,6 +1,9 @@
 .navbar {
-    width: 100%;
     background: var(--primaryColor);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 .navbar__container {
@@ -45,6 +48,7 @@
     text-decoration: none;
     color: var(--white);
     transition: all 0.3s ease;
+    padding-bottom: 20px;
 }
 
 .navbar__links:hover {
@@ -76,7 +80,8 @@
 
 @media screen and (max-width: 768px) {
     .navbar {
-        position: relative;
+        position: fixed;
+        top: 0;
     }
 
     .navbar__container {
@@ -112,6 +117,7 @@
         line-height: 60px;
         width: 100%;
         display: table;
+        padding: 0;
     }
 
     .button {
